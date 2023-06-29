@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Bitter:wght@572&family=DM+Sans&family=Fraunces:opsz@9..144&family=Kanit:wght@500&family=Lato&family=Poppins:wght@600&family=Raleway&family=Roboto&family=Rokkitt&display=swap");
+
+body {
+  background-color: #0d0d0d;
+  /* min-width: 350px; */
+  /* max-width: 1400px;
+  margin-inline: auto; */
+  font-family: "Raleway", sans-serif;
+}
+
+.PhoneInputCountry {
+  order: 2;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.PhoneInputCountrySelect {
+  background-color: #0d0d0d;
+}
+
+li,
+ol,
+ul {
+  list-style: none;
+}
